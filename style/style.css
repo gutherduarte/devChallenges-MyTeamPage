@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 10%;
+}
+.tittle {
+    width: 100%;
+    letter-spacing: -0.045em;
+    font-weight: bold;
+    color: #000000;
+}
+.description {
+    width: 100%;
+    margin-top: 10%;
+    word-spacing: 0.3em;
+}
+.description h2 {
+    margin: 0;
+    font-size: 1.1em;
+}
+.description p {
+    font-size: 0.9em;
+}
+.team-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 75%;
+    width: 65%;
+    margin-top: 5%;
+}
+.team-img div {
+    height: 35%;
+    width: 17%;
+    margin-right: 9%;
+}
+.team-img h4 {
+    margin-top: 2%;
+    margin-bottom: 0;
+    font-size: 0.85em;
+    color: #000000;
+}
+.team-img p {
+    width: 10%;
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 0.65em;
+    font-family: serif;
+    margin-left: 6.7%;
+    margin-top: 4.6%;
+}
+.team-img .person2, .person5 {
+    margin-top: 4%
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.footer {
+    margin-top: auto;
+    text-align: center;
+    color: gray;
+}
+a {
+    font-weight: bold;
+    color: gray;
+}
+@media only screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0;
+        height: 10%;
+    }
+    .description {
+        margin-top: 0;
+    }
+    .team-img {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 70%;
+        width: 85%;
+        margin-top: 27%;
+        margin-right: 5%;
+    }
+    .team-img div {
+        height: 27%;
+        width: 40%;
+        margin-right: 0;
+    }
+    .team-img p {
+        width: 10%;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 0.65em;
+        font-family: serif;
+        margin-left: 32%;
+        margin-top: 4.6%;
+        white-space: nowrap;
+    }
+    .team-img .person5 {
+        margin-top: 0%
+    }
+    .team-img .person2, .person4, .person6 {
+        margin-top: 7%;
+    }
+}
